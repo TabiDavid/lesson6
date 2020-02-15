@@ -1,0 +1,9 @@
+/*size for screen such as: tables*/
+
+@media only screen and (max-width: 48em){
+    header{
+        background-color: teal;
+    }
+
+
+}

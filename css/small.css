@@ -1,0 +1,6 @@
+/*size for phones and another devices*/
+@media only screen and (max-width: 22.5em){
+header{
+    background-color: rgb(185, 235, 47);
+}
+}
