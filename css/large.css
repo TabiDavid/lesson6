@@ -38,4 +38,18 @@ header img {
     color: forestgreen;
     font-style: italic;
 }
+nav{
+    background-color: black;
+    padding: 10px;
+    width: 100%;
+    
+}
+nav ul{
+    display: flex;
+   
+    
+}
+nav li a{
+    color: yellow;
+    display: inline;
 }
