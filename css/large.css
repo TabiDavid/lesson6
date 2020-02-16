@@ -44,7 +44,113 @@ header img {
 }
 
 
+main{
+    background-color: #DCCCFF;
+    padding: 8px;
+    
+    }
+    h2, h3{
+        padding: 25px;
+        text-align: center;
+        font-size: large;
+        
+    }
+    
+    main img{
+        width: 100%;
+        height: 300px;
+    }
+    
+    .herodiv{
+        margin: 0 auto;
+        position: relative;
+    
+    }
+    #weathersummary{
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        background:radial-gradient(brown, lightblue);
+        padding: .5rem;
+        
+    
+    }
+    .forecast{
+        display: none;
+    }
+    .allboxes{
+        text-align: center;
+        
+    }
+    
+    .box {
+        
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        background: rgb(175, 120, 211);
+        color: white;
+    }
+    
+    .label {
+        display: block;
+        padding: 5px;
+    }
+    .icon{
+        display: block;
+        padding: 5px;
+    }
+    .detail{
+        display: block;
+        padding: 5px;
+    }
+    
+    .article{
+    
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 8px;
+        width: 100%;
+        
+        
+    
+    }
+    section img{
+        width: 100%;
+        height: 300px;
+        margin: 0;
+        padding: 5px;
+    
+    }
+    .paragraph{
+        display: inline-block;
+        margin: 0;
+        padding: 5px;
+    
+    }
+    
+    .contact{
+        
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 8px;
+        width: 100%;
+        
+    }
+    .map{
+        width: 100%;
+    }
+    .info{
+        text-align: center;
+    }
+    footer div{
+        text-align: center;
+        padding: 10px;
+        background-color: #BF1363;
+    
+        }
 
+    
 
 @media only screen and (min-width: 48em) {
 nav {
