@@ -21,3 +21,17 @@ var weekdays = ['Sunday', 'Moday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday',
     function toggleMenu() {
         document.querySelector(".navigation").classList.toggle("responsive");
       }
+
+      function pancakeD(){
+        var dayOfWeek = new Date().getDay();
+        var weekdays = ['Sunday', 'Moday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+        
+        if(weekdays[dayOfWeek] == weekdays[5]){
+        document.getElementById("pancake").style.display = "flex";
+        }
+        else {
+            document.getElementById("pancake").style.display = "none";
+        }
+        
+        }
+        
