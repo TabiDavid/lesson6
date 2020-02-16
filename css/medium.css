@@ -1,4 +1,19 @@
 /*size for screen such as: tables*/
 
 @media only screen and (max-width: 44em) {
+
+   header {
+    display: flex;
+    flex-direction: column;
+   }
+  
+    .headings h1 {
+        font-size: 1.6rem;
+        margin: 0 0 0 17px;
+    }
+    .m {
+    
+        margin-left: 20px;
+        font-size: .9rem;
+    }
 }
