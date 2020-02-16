@@ -15,3 +15,9 @@ var weekdays = ['Sunday', 'Moday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday',
     
     document.getElementById('outputDiv').innerHTML = text;
     }
+
+
+
+    function toggleMenu() {
+        document.querySelector(".navigation").classList.toggle("responsive");
+      }
