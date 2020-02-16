@@ -174,5 +174,6 @@ nav {
 .navigation li:first-child {
     display: none;
 }
-
+.forecast{
+	display: inline;
 }
