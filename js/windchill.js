@@ -1,6 +1,6 @@
 
 function windChill() {
-    let windSpeed = document.getElementById('windspeed').innerHTML;
+    let windSpeed = document.getElementById('Wspeed').innerHTML;
     windSpeed = parseFloat(windSpeed);
     let temperature = document.getElementById('temperature').innerHTML;
     temperature = parseFloat(temperature);
@@ -14,4 +14,4 @@ function windChill() {
 
 }
 
-document.getElementById("windchill").innerHTML = windChill() + "&#xb0;F";
+document.getElementById("Windchill").innerHTML = windChill() + "&#xb0;F";
