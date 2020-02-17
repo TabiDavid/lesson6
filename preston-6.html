@@ -45,10 +45,11 @@
         <main>
             <h2>Preston Idaho Town</h2>
             <div class="herodiv">
-                <figure>
-                    <img  srcset="img/small.jpg" srcset="img/large.jpg"  alt="Land scape"
-                    src="img/media.jpg">
-                </figure>
+                <picture>
+                    <source srcset="img/large.jpg" media="(min-width: 1200px)">
+                        <source srcset="img/media.jpg" media="(min-width: 700px)">
+                    <img src="img/small.jpg" alt="land scape">
+                  </picture>
                 <section id="weathersummary">
                    <h3>Weather Sumary</h3>
                    <p>Label: 99 C</p>
